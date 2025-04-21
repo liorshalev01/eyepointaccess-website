@@ -5,7 +5,7 @@ const config: Config = {
   url: 'https://eyepoint-access.com/',
   baseUrl: '/',
 
-  title: 'Eyepoint Security',
+  title: 'Eyepoint Access',
   tagline: 'Visual Privacy Redefined.',
   favicon: 'img/favicon.ico',
 
@@ -56,9 +56,9 @@ const config: Config = {
       disableSwitch: true,
     },
     navbar: {
-      title: 'Eyepoint Security',
+      title: 'Eyepoint Access',
       logo: {
-        alt: 'Eyepoint Security Logo',
+        alt: 'Eyepoint Access Logo',
         src: 'img/logo.png',
       },
       items: [
@@ -70,10 +70,10 @@ const config: Config = {
     },
     footer: {
       logo: {
-        alt: 'Eyepoint Security Logo',
+        alt: 'Eyepoint Access Logo',
         src: 'img/logo-transparent.png',
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Eyepoint Security`,
+      copyright: `Copyright © ${new Date().getFullYear()} Eyepoint Access`,
     },
   } satisfies Preset.ThemeConfig,
 }
