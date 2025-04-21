@@ -1,0 +1,12 @@
+#!/bin/bash
+
+set +b
+source .env
+set -b
+
+npx docu-notion \
+  --notion-token "$NOTION_TOKEN" \
+  --root-page "$NOTION_ROOT_PAGE" \
+  --css-output-directory "src/css" \
+  --markdown-output-path "src/pages" \
+  --require-slugs
