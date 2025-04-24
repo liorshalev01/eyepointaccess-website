@@ -32,10 +32,18 @@ In addition, the AR environment keeps user input (such as signing documents or i
 
 ## **How It Works** {#1df7da55074f80dc9af7d41b574d42d7}
 
-1. **Encrypted Display.** When users open or view confidential data, the application displays a visually encrypted version on-screen.
-2. **AR Decryption.** Our AR glasses detect and match encryption keys, then decrypt the data and overlay clear text over the application screen.
-3. **Biometric Binding.** Each user’s biometric data helps generate unique encryption keys so only the rightful wearer can access the information. If the glasses are lost or stolen, the data remains protected.
-4. **Air-Gap.** The AR glasses are isolated from the network, making remote compromise virtually impossible. Decryption happens only at eye level, so sensitive data never appears in plaintext at the endpoint or over the network.
+
+**Encrypted Display.** When users open or view confidential data, the application displays a visually encrypted version on-screen.
+
+
+**AR Decryption.** Our AR glasses detect and match encryption keys, then decrypt the data and overlay clear text over the application screen.
+
+
+**Biometric Binding.** Each user’s biometric data helps generate unique encryption keys so only the rightful wearer can access the information. If the glasses are lost or stolen, the data remains protected.
+
+
+**Air-Gap.** The AR glasses are isolated from the network, making remote compromise virtually impossible. Decryption happens only at eye level, so sensitive data never appears in plaintext at the endpoint or over the network.
+
 
 Employees can open sensitive documents on any laptop, yet the text remains encrypted until viewed through our AR glasses, preventing unauthorized screenshots or key logging.
 
@@ -45,8 +53,12 @@ Employees can open sensitive documents on any laptop, yet the text remains encry
 
 Some organizations prefer the flexibility of remote work, while others prefer strict air-gap policies. Each approach has advantages and disadvantages:
 
-- **Remote work networks** offer high productivity but can lead to data leaks.
-- **Closed air-gap networks** minimize data leaks but also limit productivity.
+
+**Remote work networks** offer high productivity but can lead to data leaks. 
+
+
+**Closed air-gap networks** minimize data leaks but also limit productivity.
+
 
 Our solution provides **both** high productivity and low risk of data leaks, serving organizations that currently prefer air-gap networks and those striving to enable safe remote work.
 
