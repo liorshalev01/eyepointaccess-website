@@ -2,10 +2,10 @@ import type * as Preset from '@docusaurus/preset-classic'
 import type { Config } from '@docusaurus/types'
 
 const config: Config = {
-  url: 'https://eyepoint-access.com/',
+  url: 'https://eyepointaccess.com/',
   baseUrl: '/',
 
-  title: 'Eyepoint Access',
+  title: 'EyePoint Access',
   tagline: 'Visual Privacy Redefined.',
   favicon: 'img/favicon.ico',
 
@@ -56,9 +56,9 @@ const config: Config = {
       disableSwitch: true,
     },
     navbar: {
-      title: 'Eyepoint Access',
+      title: 'EyePoint Access',
       logo: {
-        alt: 'Eyepoint Access Logo',
+        alt: 'EyePoint Access Logo',
         src: 'img/logo.png',
       },
       items: [
@@ -70,10 +70,10 @@ const config: Config = {
     },
     footer: {
       logo: {
-        alt: 'Eyepoint Access Logo',
+        alt: 'EyePoint Access Logo',
         src: 'img/logo-transparent.png',
       },
-      copyright: `Copyright © ${new Date().getFullYear()} Eyepoint Access`,
+      copyright: `Copyright © ${new Date().getFullYear()} EyePoint Access`,
     },
   } satisfies Preset.ThemeConfig,
 }
